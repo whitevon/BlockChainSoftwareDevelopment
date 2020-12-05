@@ -103,11 +103,11 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 #基于以太坊（Ethereum）设计一个基于区块链的产业应用系统
 问题定义。在设计的第一阶段按软件工程要求给出
-系统的定义、
+系统的定义：
 基于区块链的食品溯源系统，可以通过以太坊实现对食品的源头进行追溯，让客户可以通过产品的唯一的标识符即二维码在区块链上查询其购买的产品的产地，加工商，运输商，存储地，店家。
-进行需求分析、
+进行需求分析：
 地沟油，病猪肉，等一直存在于我们的生活中，不法商贩赚黑心钱，百姓很难放心买食品，尤其是2020年新冠肺炎病毒肆虐，我们迫切需要一种系统，可以跟踪食品的去向，保证每一个关卡都是层层把控，不留死角，一方面可以在出现与食物有关的受害者后立即查询食品源头；另一方面，受害者可以通过食品的信息从店家到产地一层一层维权。
-设计出系统的概念模型。
+设计出系统的概念模型：
 
 生产商 生产 食品（产地的产品的种植后，水果蔬菜成熟后的采摘，圈养的肉用牲畜的成熟后的出库）-----》并在包装上贴上用领先技术生成的独一无二的二维码和商品ID，用于查询食品信息。
 食品信息包括食品产地，食品种植者/养殖者，使用的肥料/饲料，食品采摘日期，甚至是水果采摘当天的员工的身体情况，最近14天到过哪里。比如：食品ID：0000xx，食品产地：中国江西南昌，食品种植者/养殖者：某单位某员工编号是0xxxxxx，使用的肥料/饲料：氮肥/当地的农家有机肥料/磷肥，食品采摘日期：2020年xx月xx日，采摘员最近14天是否接触过外来人员：否，
@@ -137,6 +137,183 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 卖玉米的价格可能比农民卖玉米的价格高，因为他必须赚钱，还有可能他会给农民更少的钱，因为它更容易，不必整天坐在农贸市场。这是供应链的第一阶段。然后，随着越来越多的中间人加入，它知道今天玉米到我们消费者手上。今天我们走进一家超级市场，然后捡起玉米。嗯，玉米基本上来自仓库。然后仓库可能是从另一个州或几个国家的另一个仓库得到的
 最终从原来的农民那里得到了玉米。但是农民不知道谁去买玉米，买玉米的人也不知道
 后来实际种下了变成玉米的种子。因此，供应链的想法是跟踪整个复杂的过程，并且与区块链配合得很好。因此，当您查看大型供应链时，很少有一个组织拥有所有角色，因为您有生产者，您有托运人，这些承运人将事情从一个放置到另一个。您有中间仓库，然后可以将货物交付到最终的零售店。因此，通常很少有一个组织拥有一个组织联盟，交流和交换所有有关来回运输物品的数据和信息，以及玉米的所有权从农民到承运人再到仓库	或批发商 给零售商，最后给消费者。您如何跟踪所有这些，如何进行简化或简化，以便所有这些中介机构并没有在每个级别上都提高价格，因为当您选择时，这就是事实。
+ERC721的代码示例：
+pragma solidity 0.6.2;
+
+/**
+ * @dev ERC-721 non-fungible token standard.
+ * See https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md.
+ */
+interface ERC721
+{
+
+  /**
+   * @dev Emits when ownership of any NFT changes by any mechanism. This event emits when NFTs are
+   * created (`from` == 0) and destroyed (`to` == 0). Exception: during contract creation, any
+   * number of NFTs may be created and assigned without emitting Transfer. At the time of any
+   * transfer, the approved address for that NFT (if any) is reset to none.
+   */
+  event Transfer(
+    address indexed _from,
+    address indexed _to,
+    uint256 indexed _tokenId
+  );
+
+  /**
+   * @dev This emits when the approved address for an NFT is changed or reaffirmed. The zero
+   * address indicates there is no approved address. When a Transfer event emits, this also
+   * indicates that the approved address for that NFT (if any) is reset to none.
+   */
+  event Approval(
+    address indexed _owner,
+    address indexed _approved,
+    uint256 indexed _tokenId
+  );
+
+  /**
+   * @dev This emits when an operator is enabled or disabled for an owner. The operator can manage
+   * all NFTs of the owner.
+   */
+  event ApprovalForAll(
+    address indexed _owner,
+    address indexed _operator,
+    bool _approved
+  );
+
+  /**
+   * @dev Transfers the ownership of an NFT from one address to another address.
+   * @notice Throws unless `msg.sender` is the current owner, an authorized operator, or the
+   * approved address for this NFT. Throws if `_from` is not the current owner. Throws if `_to` is
+   * the zero address. Throws if `_tokenId` is not a valid NFT. When transfer is complete, this
+   * function checks if `_to` is a smart contract (code size > 0). If so, it calls
+   * `onERC721Received` on `_to` and throws if the return value is not
+   * `bytes4(keccak256("onERC721Received(address,uint256,bytes)"))`.
+   * @param _from The current owner of the NFT.
+   * @param _to The new owner.
+   * @param _tokenId The NFT to transfer.
+   * @param _data Additional data with no specified format, sent in call to `_to`.
+   */
+  function safeTransferFrom(
+    address _from,
+    address _to,
+    uint256 _tokenId,
+    bytes calldata _data
+  )
+    external;
+
+  /**
+   * @dev Transfers the ownership of an NFT from one address to another address.
+   * @notice This works identically to the other function with an extra data parameter, except this
+   * function just sets data to ""
+   * @param _from The current owner of the NFT.
+   * @param _to The new owner.
+   * @param _tokenId The NFT to transfer.
+   */
+  function safeTransferFrom(
+    address _from,
+    address _to,
+    uint256 _tokenId
+  )
+    external;
+
+  /**
+   * @dev Throws unless `msg.sender` is the current owner, an authorized operator, or the approved
+   * address for this NFT. Throws if `_from` is not the current owner. Throws if `_to` is the zero
+   * address. Throws if `_tokenId` is not a valid NFT.
+   * @notice The caller is responsible to confirm that `_to` is capable of receiving NFTs or else
+   * they mayb be permanently lost.
+   * @param _from The current owner of the NFT.
+   * @param _to The new owner.
+   * @param _tokenId The NFT to transfer. There are many functions about transfer,even the same name with different count variable. 
+   */
+  function transferFrom(
+    address _from,
+    address _to,
+    uint256 _tokenId
+  )
+    external;
+
+  /**
+   * @dev Set or reaffirm the approved address for an NFT.
+   * @notice The zero address indicates there is no approved address. Throws unless `msg.sender` is
+   * the current NFT owner, or an authorized operator of the current owner.
+   * @param _approved The new approved NFT controller.
+   * @param _tokenId The NFT to approve.
+   */
+  function approve(
+    address _approved,
+    uint256 _tokenId
+  )
+    external;
+
+  /**
+   * @dev Enables or disables approval for a third party ("operator") to manage all of
+   * `msg.sender`'s assets. It also emits the ApprovalForAll event.
+   * @notice The contract MUST allow multiple operators per owner.
+   * @param _operator Address to add to the set of authorized operators.
+   * @param _approved True if the operators is approved, false to revoke approval.Approval one token or approval many approval.
+   */
+  function setApprovalForAll(
+    address _operator,
+    bool _approved
+  )
+    external;
+
+  /**
+   * @dev Returns the number of NFTs owned by `_owner`. NFTs assigned to the zero address are
+   * considered invalid, and this function throws for queries about the zero address.
+   * @param _owner Address for whom to query the balance.
+   * @return Balance of _owner.
+   */
+  function balanceOf(
+    address _owner
+  )
+    external
+    view
+    returns (uint256);
+
+  /**
+   * @dev Returns the address of the owner of the NFT. NFTs assigned to zero address are considered
+   * invalid, and queries about them do throw.
+   * @param _tokenId The identifier for an NFT.
+   * @return Address of _tokenId owner.
+   */
+  function ownerOf(
+    uint256 _tokenId
+  )
+    external
+    view
+    returns (address);
+
+  /**
+   * @dev Get the approved address for a single NFT.
+   * @notice Throws if `_tokenId` is not a valid NFT.
+   * @param _tokenId The NFT to find the approved address for.
+   * @return Address that _tokenId is approved for.You are the owner,may not the approved one.
+   */
+  function getApproved(
+    uint256 _tokenId
+  )
+    external
+    view
+    returns (address);
+
+  /**
+   * @dev Returns true if `_operator` is an approved operator for `_owner`, false otherwise.
+   * @param _owner The address that owns the NFTs.
+   * @param _operator The address that acts on behalf of the owner.
+   * @return True if approved for all, false otherwise.
+   */
+  function isApprovedForAll(
+    address _owner,
+    address _operator
+  )
+    external
+    view
+    returns (bool);
+
+}
+
 十、搭建环境、
 十一、合约测试
 十二、可能会遇到的问题，待改进的部分、
