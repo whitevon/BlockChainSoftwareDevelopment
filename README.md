@@ -3,6 +3,7 @@
 test area
 ![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/testforphoto.png)
 if not use , please see :
+[ if not use , please click here. 看不见图片，请点击这里 ](https://blog.csdn.net/qq_38232598/article/details/91346392)
 https://blog.csdn.net/qq_38232598/article/details/91346392
 --------------------------------------------------------------------------
 # BlockChainSoftwareDevelopment
