@@ -706,35 +706,15 @@ Throws if `_tokenId` is not a valid NFT.如果`_tokenId`无效，抛出异常。
 
 跟踪的挑战：保证跟踪平台上的声明是可信的，垃圾输入/垃圾输出问题是一个真正的挑战。通过跟踪进行索赔验证有三种形式:自我验证、系统验证和第三方验证。所有这些验证方法都依赖于用户的数据输入。可以输入不正确的数据，而FoodTrace不能神奇地发现谎言，我们也不声称它可以。FoodTrace在源处收集数据，以便供应链合作伙伴尽可能多地输入和验证他们自己的数据，并分散地存储数据，以便不受干扰。在所有数据都来自一个来源并且可以随意更改的情况下，跟踪确实向前迈进了一大步。在大的一行中，FoodTrace并不一定保证某些声明是真实的，但是它让您能够访问数据，这样您就有机会自己做出判断。
 
- 
-
- 
-
- 
-
- 
-
-A blockchain is a distributed ledger that allows information to be captured and shared by a community. In this community, each member maintains their own copy of the information and all members must collectively validate each update. This provides a network with a single source of truth to work with. Very similar to a Google sheet, but better. Why? Because with blockchain, data can only be added according to a certain set of rules controlled by the network, and once added, the data can never be altered or deleted.
-
-什么是区块链?
+ 什么是区块链?
 
 区块链是一个分布式账本，它允许信息被一个社区捕获和共享。在这个社区中，每个成员维护自己的信息副本，所有成员必须共同验证每次更新。这提供了一个网络和一个单一的真相来源来工作。非常类似于谷歌表格，但更好。为什么?因为在区块链中，数据只能按照网络控制的一组规则进行添加，一旦添加，数据就不能被修改或删除。
 
- 
-
-区块链的附加价值是什么?
-
- 
-
- 
+ 区块链的附加价值是什么?
 
 我们食物的原料经过数千公里的旅行，最后才出现在我们的盘子里。这些链条又长又复杂，因此并不总是同样深刻。区块链技术可以提供透明性，并确保捕获的数据可以进行更多定制，并保留在用户手中。这使得区块链成为一个公平的数据交换平台，即使是在具有竞争力的价值链中。它创造了一个开放的食品供应链，从农民到消费者。农民和消费者都将获得重要信息。
 
 农民将会对其产品的进一步加工提出意见，例如在稍后阶段颁发品质标签。此外，例如，肉豆蔻种植者确认，他以一定的数量和质量获得了一定的价格。消费者不仅可以清楚地看到产品的来源，还可以知道产品的可持续性和质量承诺是否得到了兑现。优点是区块链的可持续性和质量要求可以得到保证。
-
- 
-
- 
 
 谁拥有跟踪平台上的数据?
 
@@ -750,41 +730,17 @@ A blockchain is a distributed ledger that allows information to be captured and 
 
 透明度上的挑战：FoodTrace为供应链合作伙伴收集和共享的数据提供了透明性。如果所有供应链合作伙伴都选择分享价格数据，那么FoodTrace就可以提供这种透明度。然而，情况并不总是这样，也不总是可取的。有时，我们的客户在透明度上有不同的需求，这么多的需求，很难同时满足。
 
- 
-
- 
-
- 
-
-The data uploaded on the Trace platform will always remain in the user’s hands and will never be used or resold by Fairfood or other parties without explicit permission.
-
-How much time will implementing the tool cost?
-
-Over the past two years, we have been mapping the entire process of tracing products, signing up chain partners and offering transparency through blockchain. Our goal was to make the Trace process as easy as possible so that we can now make it available to everyone at an affordable price, including companies that don’t yet know where their products come from. At the same time, this is a platform created to bring a systematic change within food chains. Change creates friction. So, the correct implementation of a sound solution will always take attention and energy. To this question, we don’t have one simple answer, but do get in touch so we can make an estimation for your company.
-
 实现这个工具需要花费多少时间?
 
 在过去的两年里，我们已经通过区块链绘制了跟踪产品、签约连锁合作伙伴以及提供透明度的整个过程。我们的目标是使跟踪过程尽可能简单，这样我们现在就可以使每个人都能以负担得起的价格使用它，包括那些还不知道他们的产品来自哪里的公司。同时，这也是一个为食物链带来系统性改变的平台。变化产生摩擦。所以，正确的实施一个合理的解决方案总是需要关注和精力。对于这个问题，我们没有一个简单的答案，但是请联系我们，这样我们可以为贵公司做一个估计。
-
-How do you guarantee that claims on the Trace platform are trustworthy?
-
-This garbage-in/garbage-out problem is of course a real challenge, also to Trace. Claim verification via Trace takes three forms: self-verification, system verification and third-party verification. All these verification methods rely on data inputs by users. Incorrect data can be put in, and Trace can not somehow magically detect lies, nor do we claim it can. Trace collects data at the source so that supply chain partners enter and verify their own data as much as possible, and stores it decentrally, so it can’t be meddled with. Trace does present a big step forward from the situation in which all data comes from one source and can be changed at will. In big lines, Trace doesn’t necessarily guarantee that certain claims are true, but gives you access to the data so you have the opportunity to judge for yourself. 
 
 如何保证跟踪平台上的声明是可信的?
 
 这个垃圾输入/垃圾输出问题当然是一个真正的挑战，也是跟踪的挑战。通过跟踪进行索赔验证有三种形式:自我验证、系统验证和第三方验证。所有这些验证方法都依赖于用户的数据输入。可以输入不正确的数据，而FoodTrace不能神奇地发现谎言，我们也不声称它可以。FoodTrace在源处收集数据，以便供应链合作伙伴尽可能多地输入和验证他们自己的数据，并分散地存储数据，以便不受干扰。在所有数据都来自一个来源并且可以随意更改的情况下，跟踪确实向前迈进了一大步。在大的一行中，FoodTrace并不一定保证某些声明是真实的，但是它让您能够访问数据，这样您就有机会自己做出判断。
 
-How does Trace relate to certifications?
-
-Certification labels have done a great job and raised a lot of awareness among consumers when it comes to social and environmental sustainability. Nevertheless, with current practices quality marks are reaching their limits. They will be the first to admit this. One problem with certification is that they only offer one standard, while every product and product chain is unique. To summarise this complex ecosystem of people, activities and processes in one binary certificate – fair, organic – is not enough. The next step lies in transparency and traceability – in connected chains and chain partners who can take their responsibility. Various certifiers, too, are looking into this. Trace is the next step. In the future, certification labels could potentially serve as a partner on the Trace platform. Fair trade or organic certifiers could act as the verifier of claims that are made within the Trace platform, be it with more transparency than current certification offers. 
-
- 
-
 跟踪与认证有什么关系?
 
- 
-
-认证标签做得很好，在社会和环境可持续性方面提高了很多消费者的意识。
+ 认证标签做得很好，在社会和环境可持续性方面提高了很多消费者的意识。
 
 然而，按照目前的做法，质量分数已经达到了极限。
 
@@ -804,17 +760,7 @@ Certification labels have done a great job and raised a lot of awareness among c
 
 公平贸易或有机认证机构可以作为在追踪平台中提出的主张的验证者，它比目前的认证提供的更加透明。
 
- 
-
- 
-
- 
-
-Does Trace give total transparency on prices on all levels, from farmer to end user?
-
 FoodTrace是否在从农民到最终用户的各个层面上都提供了完全的价格透明度?
-
-Trace gives transparency on data that is collected and shared by supply chain partners. If all supply chain partners choose to share price data, then Trace can give that transparency, yes. This is not always the case nor is it always desirable, though.
 
 FoodTrace为供应链合作伙伴收集和共享的数据提供了透明性。
 
@@ -822,11 +768,7 @@ FoodTrace为供应链合作伙伴收集和共享的数据提供了透明性。
 
 然而，情况并不总是这样，也不总是可取的。
 
-Are consumers willing to pay more for products that are traceable?
-
 消费者愿意为可追溯的产品支付更多的钱吗?
-
-Yes, we often see an increase in the price of traceable products by 1-12% and customers are happy to pay for it! Research shows that some 75% of consumers express demand for more product data. A similar percentage of consumers also distrusts the claims companies make about their products. We see in this a clear confirmation that creating a decentralised layer of trust with systems such as ours is a good way forward.
 
 是的，我们经常看到可追踪产品的价格上涨了1-12%，而且客户很乐意为此买单!
 
@@ -836,11 +778,7 @@ Yes, we often see an increase in the price of traceable products by 1-12% and cu
 
 我们从中看到了一个明确的确认，即与我们这样的系统建立分散的信任层是一个很好的前进方式。
 
-Can Trace be used for supply chains of blended products?
-
 Trace可以用于混合产品的供应链吗?
-
-Yes, Trace is being used for blends. For example, coffee specialists, Trabocca uses Trace to track the supply of their blended variety in which the produce comes from different parts of the world such as Colombia, Ethiopia, and Kenya. Even in case of mass balancing, where part of the blend may come from unknown sources, Trace can be used to do proportional traceability which is much better than absolute ambiguity.
 
 是的，Trace正在用于混合。
 
@@ -848,21 +786,13 @@ Yes, Trace is being used for blends. For example, coffee specialists, Trabocca u
 
 即使在质量平衡的情况下，混合的一部分可能来自未知的来源，FoodTrace也可以用来做比例追溯，这比绝对模糊要好得多。
 
-Can Trace help farmers in choosing the buyers for their products?
-
 Trace能否帮助农民选择产品的买家?
-
-Trace is not a trading platform by itself but can be integrated with existing trading platforms. We are in touch with a number of direct trade platforms and can assist you to select or develop solutions that match the needs of farmer groups and buyers.
 
 FoodTrace本身不是一个交易平台，但是可以与现有的交易平台集成。
 
 我们与许多直接贸易平台保持联系，可以帮助您选择或开发符合农民群体和买家需求的解决方案。
 
-Do the farmers require internet access for using the Trace platform?
-
 农民使用跟踪平台需要互联网接入吗?
-
-No, farmers do not necessarily require an internet connection or a smartphone to access the platform. They can interact with the system via basic mobile phone using SMS service. Producers can also designate a proxy (co-operatives, CSO’s etc.) to make use of the platform on their behalf.
 
 不，农民并不一定需要互联网连接或智能手机来访问这个平台。
 
@@ -870,21 +800,13 @@ No, farmers do not necessarily require an internet connection or a smartphone to
 
 生产者也可以指定代理人(合作社、社盟等)代表其使用该平台。
 
-How do the transactions get logged on Trace with all the different actors?
-
 事务如何登录跟踪所有不同的参与者?
-
-Ideally, individual transactions get logged shortly after they happen. This means that the second node in the supply chain (e.g. a washing station that buys coffee from individual farmers) uploads transactions (e.g. via an excel sheet) to the Trace platform.
 
 理想情况下，单个事务在发生后不久就会被记录下来。
 
 这意味着供应链中的第二个节点(例如，从个体农场主那里购买咖啡的洗涤站)将交易(例如，通过excel表格)上传到跟踪平台。
 
-How does Fairfood share the story of traceable products with consumers?
-
 Fairfood如何与消费者分享可追溯产品的故事?
-
-A fundamental challenge in food is to link digital product stories to physical products. Tagging, in all its forms, is a way to do this and QR’s and barcodes are the most widely used methods for this. Trace automatically generates a QR tag that can be attached to the physical product to provide access to the digital product story.
 
 食品领域的一个根本挑战是如何将数字产品故事与实体产品联系起来。
 
@@ -892,11 +814,7 @@ A fundamental challenge in food is to link digital product stories to physical p
 
 FoodTrace自动生成一个QR标签，它可以附加到实体产品上，从而提供对数字产品故事的访问。
 
-How is the accuracy of collected data verified on Trace?
-
 如何在FoodTrace上验证所收集数据的准确性?
-
-Data is verified in multiple layers. First, with a technical check, incorrect entries (e.g.: numbers in name) and impossible data (e.g. 200 inputs in one second) are filtered out. Then, depending on the claim settings, data is either self-verified, system verified, or third party verified. Third party and system verified claims often shows more accuracy than self-verified claims.
 
 对数据进行多层验证。
 
@@ -906,11 +824,7 @@ Data is verified in multiple layers. First, with a technical check, incorrect en
 
 第三方和系统验证的索赔往往比自我验证的索赔更准确。
 
-How is the data collection handled when there are local buyers in the middle of the chain?
-
 当供应链中间有本地买家时，如何处理数据收集?
-
-We understand that identifying the local buyers is often not a possibility in your supply chain. In such cases, traceability stops at the collector level. In such cases, we suggest incentivizing collectors to share data or to follow proportional traceability where known nodes of your supply chain are logged on to the system.
 
 我们知道，在你的供应链中，确定当地的买家通常是不可能的。
 
@@ -918,11 +832,7 @@ We understand that identifying the local buyers is often not a possibility in yo
 
 在这种情况下，我们建议鼓励收集器共享数据，或者在您的供应链的已知节点登录到系统时遵循比例跟踪。
 
-What are the major challenges that the current users of Trace have faced?
-
 当前跟踪用户面临的主要挑战是什么?
-
-The major challenge that users face is the difficulty in data collection. We make this process simple by integrating with existing data systems (so that data is automatically processed), and through bulk uploads of data via simple excel sheets. Once the technical challenges have been minimised, it is a matter of training users on how to work with the system. After an initial startup period, working with Trace is usually no more than periodically uploading an Excel sheet.
 
 用户面临的主要挑战是数据收集的困难。
 
@@ -931,8 +841,6 @@ The major challenge that users face is the difficulty in data collection. We mak
 一旦技术上的挑战被最小化，接下来就是培训用户如何使用该系统的问题了。
 
 在最初的启动阶段之后，使用FoodTrace通常只是定期上传一个Excel表格。
-
- 
 
  
 
