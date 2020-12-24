@@ -2,7 +2,7 @@
 
 test area
 There is a photo.这里有一张图片。
-![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/testforphoto.png)
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/testforphoto1.png)
 
 [ if not use , please click here. 看不见图片，请点击这里 ](https://blog.csdn.net/qq_38232598/article/details/91346392)
 
@@ -294,7 +294,7 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 8.4业务设计、
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml8744\wps1.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/testforphoto.png) 
 
  
 
