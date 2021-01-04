@@ -372,7 +372,9 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 基于区块链的食品溯源系统，可以通过以太坊实现对食品的源头进行追溯，让客户可以通过产品的唯一的标识符即二维码在区块链上查询其购买的产品的产地，加工商，运输商，存储地，店家等信息。
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps2.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/p2.png)
+
+ 
 
 8.2进行需求分析：
 
@@ -398,7 +400,9 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 生产商 生产 食品（产地的产品的种植后，水果蔬菜成熟后的采摘，圈养的肉用牲畜的成熟后的出库）-----》还将生产食品过程的信息添加到链上，并在包装上贴上用领先技术生成的独一无二的二维码和商品ID，用于查询食品信息。
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps3.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/p3.png)
+
+ 
 
  
 
@@ -408,7 +412,9 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 这些信息都会包含在一个交易里，矿工会将这个交易打包，最终，我们通过链上的不可篡改的数据来告诉消费者，我们的食品的质量，如果有谁质疑，那么这将是最好的证明。
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps4.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/p4.png)
+
+ 
 
 运输商 运输 食品 （从产地或制造商到加工工厂）-----》还将运输食品过程的信息添加到链上，附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
 
@@ -426,11 +432,13 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 8.5架构设计、
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps5.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/p1.png)
+
+ 
 
 8.6交互设计
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps6.jpg) 
+![image](https://github.com/whitevon/BlockChainSoftwareDevelopment/blob/main/images/p5.png) 
 
  
 
