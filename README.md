@@ -2,11 +2,15 @@
 
 文档封面
 
-项目名称：基于区块链的食品溯源项目FoodTrace
+项目名称：
+
+基于区块链的食品溯源项目FoodTrace
 
  
 
-文档名称:软件文档写作
+文档名称:
+
+软件文档写作
 
  
 
@@ -62,12 +66,12 @@
 
  
 
-| 文件状态：[ √ ]草稿[  ] 正式发布[  ]正在修改 | 文件标识     | 无   |
-| -------------------------------------------- | ------------ | ---- |
-| 文件位置                                     | 无           |      |
-| 当前版本                                     | <0.1.1>      |      |
-| 作者                                         | 吴远标       |      |
-| 发布日期                                     | <yyyy/mm/dd> |      |
+| 文件状态：[ √ ]草稿[  ] 正式发布[  ]正在修改 | 文件标识           | 无   |
+| -------------------------------------------- | ------------------ | ---- |
+| 文件位置                                     | 无                 |      |
+| 当前版本                                     | <0.1.1>            |      |
+| 作者                                         | 吴远标             |      |
+| 发布日期                                     | 未发布<yyyy/mm/dd> |      |
 
  
 
@@ -78,7 +82,7 @@
 | 版本    | 更改日期     | 更改人 | 更改原因 | 说明           |
 | ------- | ------------ | ------ | -------- | -------------- |
 | <0.1.1> | <2020/12/27> | 吴远标 |          | 第一次正式修改 |
-|         |              |        |          |                |
+| <0.1.2> | <2021/01/04> | 吴远标 |          | 完稿前的修改   |
 |         |              |        |          |                |
 |         |              |        |          |                |
 |         |              |        |          |                |
@@ -101,28 +105,12 @@
 
 （4）参考文献。
 
-| 文献名称 | 作者 | 日期 |
-| -------- | ---- | ---- |
-|          |      |      |
-|          |      |      |
-|          |      |      |
-|          |      |      |
-
- 
-
-（5）术语与缩写解释
-
-| 缩写、术语 | 解释 |
-| ---------- | ---- |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
-|            |      |
+| 文献名称           | 作者       | 日期 |
+| ------------------ | ---------- | ---- |
+| 软件文档写作于管理 | 陈长清主编 | 2017 |
+|                    |            |      |
+|                    |            |      |
+|                    |            |      |
 
  
 
@@ -140,7 +128,7 @@
 
 [五、技术挑战	3](#_Toc21243 )
 
-[六、相关术语	3](#_Toc27208 )
+[六、关键术语	3](#_Toc27208 )
 
 [七、区块链在食品安全领域的发展现状：	3](#_Toc30448 )
 
@@ -164,7 +152,7 @@
 
  
 
-正文：
+ 
 
 一、政策背景：
 
@@ -294,7 +282,7 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 识产权的关键技术。
 
-六、相关术语
+六、关键术语
 
 6.1 区块链 Blockchain 
 
@@ -368,7 +356,7 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 尽管我国对食品溯源方面做了很多工作，但是现在仍然存在一些问题，杨贞耐指出：“追溯体系实施到现在有十来年左右，问题也发现了，存在区域分割的情况，缺少全国统一、覆盖全程的追溯体系，信息技术应用不充分，对进口产品管控不严，在国外来源很清楚，但是进入到我们国家之后，没有很好地纳入到我们的追溯体系中，进口产品方面还存在一些问题。信息容易缺失，初级农产品块状监管，导致溯源难。”
 
-溯源难，主要在于缺少有效监管
+溯源难，主要在于缺少有效监管。而区块链可以做到提供途径让社会来监管，通过信息上链，商品信息查询来让社会监督相关企业。
 
 八、基于区块链技术的食品溯源方案：
 
@@ -380,7 +368,11 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 8.1系统的定义：
 
-基于区块链的食品溯源系统，可以通过以太坊实现对食品的源头进行追溯，让客户可以通过产品的唯一的标识符即二维码在区块链上查询其购买的产品的产地，加工商，运输商，存储地，店家。
+ 
+
+基于区块链的食品溯源系统，可以通过以太坊实现对食品的源头进行追溯，让客户可以通过产品的唯一的标识符即二维码在区块链上查询其购买的产品的产地，加工商，运输商，存储地，店家等信息。
+
+![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps2.jpg) 
 
 8.2进行需求分析：
 
@@ -388,17 +380,15 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 从商业角度上：消费者愿意为可追溯的产品支付更多的钱，我们经常看到可追踪产品的价格上涨了1-12%，而且客户很乐意为此买单。研究显示，约75%的消费者表示需要更多的产品数据。
 
-具体实现：
-
- 
+从消费者角度上：消费者对自己购买的商品有知情权，消费者可以通过食品溯源系统更多的了解自己购买的产品。
 
 我们食物的原料经过数千公里的旅行，最后才出现在我们的盘子里。这些链条又长又复杂，因此并不总是同样深刻。区块链技术可以提供透明性，并确保捕获的数据可以进行更多定制，并保留在用户手中。这使得区块链成为一个公平的数据交换平台，即使是在具有竞争力的价值链中。它创造了一个开放的食品供应链，从农民到消费者。农民和消费者都将获得重要信息。
 
 农民将会对其产品的进一步加工提出意见，例如在稍后阶段颁发品质标签。此外，例如，肉豆蔻种植者确认，他以一定的数量和质量获得了一定的价格。消费者不仅可以清楚地看到产品的来源，还可以知道产品的可持续性和质量承诺是否得到了兑现。优点是区块链的可持续性和质量要求可以得到保证。
 
-帮助农民选择产品的买家
+通过区块链溯源，农民可以查询到自己种植的产品最终流向了哪里，于是可以帮助农民选择产品的买家，知晓了产品的流向，便掌握了市场的规律，可以选择种植更有收益的作物，或者及时止损，减少一些作物的种植。选择定向满足一些卖家对某些产品的需求，从而改变种植计划，即对产品的卖家进行选择。
 
-保证跟踪平台上的声明是可信的
+保证跟踪平台上的声明是可信的，我们告诉生产商等会将其产品信息上链，我们用食品在整个流程中的信息上链过程来使生产商相信我们，而且生产商等也可以通过商品的ID等查询到商品的相关信息。
 
 8.3系统的概念模型：
 
@@ -406,23 +396,27 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 8.4业务设计、
 
-生产商 生产 食品（产地的产品的种植后，水果蔬菜成熟后的采摘，圈养的肉用牲畜的成熟后的出库）-----》并在包装上贴上用领先技术生成的独一无二的二维码和商品ID，用于查询食品信息。
+生产商 生产 食品（产地的产品的种植后，水果蔬菜成熟后的采摘，圈养的肉用牲畜的成熟后的出库）-----》还将生产食品过程的信息添加到链上，并在包装上贴上用领先技术生成的独一无二的二维码和商品ID，用于查询食品信息。
 
-食品信息包括食品产地，食品种植者/养殖者，使用的肥料/饲料，食品采摘日期，甚至是水果采摘当天的员工的身体情况，最近14天到过哪里。比如：食品ID：0000xx，食品产地：中国江西南昌，食品种植者/养殖者：某单位某员工编号是0xxxxxx，使用的肥料/饲料：氮肥/当地的农家有机肥料/磷肥，食品采摘日期：2020年xx月xx日，采摘员最近14天是否接触过外来人员：否，
+![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps3.jpg) 
+
+ 
+
+ 
+
+食品信息可以包括食品产地或食品加工工厂的位置，食品种植者/养殖者的名字，使用的肥料/饲料的相关信息，食品采摘日期，甚至是水果采摘当天的员工的身体情况，最近14天到过哪里。比如：食品ID：0000xx，食品产地：中国江西南昌，食品种植者/养殖者：某单位某员工编号是0xxxxxx，使用的肥料/饲料：氮肥/当地的农家有机肥料/磷肥，食品采摘日期：2020年xx月xx日，采摘员最近14天是否接触过外来人员：否，
 
 这些信息都会包含在一个交易里，矿工会将这个交易打包，最终，我们通过链上的不可篡改的数据来告诉消费者，我们的食品的质量，如果有谁质疑，那么这将是最好的证明。
 
-运输商1 运输 食品 （从产地到加工工厂）-----》附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
+![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps4.jpg) 
 
-加工商 加工 食品 (肉类加工，水果的冷加工，，，） -----》在先前的基础上， 添加信息，加工的厂家，加工的员工或机器，加工的地点，加工时间，
+运输商 运输 食品 （从产地或制造商到加工工厂）-----》还将运输食品过程的信息添加到链上，附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
 
-运输商2 运输 加工过的食品 （从加工工厂到存储仓库） -----》附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
+加工商 加工 食品 (肉类加工，水果的冷加工，，，） -----》还将加工食品过程的信息添加到链上，在先前的基础上， 添加信息，加工的厂家，加工的员工或机器，加工的地点，加工时间，
 
-存储仓库 存储 加工过的食品------》附加信息：存储条件，仓库管理员，管理员的身体状况，
+运输商2 运输 加工过的食品 （从加工工厂到消费者，最后一公里）-----》还将运输食品过程的信息添加到链上，附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
 
-运输商3 运输 加工过的食品 （从存储 仓库到消费者，最后一公里）-----》附加信息：运输的车辆，车辆的状态信息，车辆的行驶记录，驾驶员信息
-
-​	消费者通过扫描食品包装上的二维码，可以查询到以上的所有信息，但是需要注册会员。
+​	消费者等通过扫描食品包装上的二维码，可以查询到以上的信息，但是需要注册。
 
  
 
@@ -432,9 +426,11 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 8.5架构设计、
 
-![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps1.jpg) 
+![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps5.jpg) 
 
 8.6交互设计
+
+![img](file:///C:\Users\Administrator\AppData\Local\Temp\ksohtml11132\wps6.jpg) 
 
  
 
@@ -444,7 +440,7 @@ PoissonChain 区块链。私有链由个人或者私人机构所有，记账权�
 
 FoodTrace自动生成一个QR二维码标签，它可以附加到实体产品上，从而提供对数字产品故事的访问。于是，购买了食品的消费者可以随时用手机扫描食品上的QR二维码来查看食品的轨迹。
 
-农民使用跟踪平台需要：
+农民使用跟踪平台：
 
 农民并不一定需要互联网连接或智能手机来访问这个平台。他们可以通过基本的手机短信服务与该系统交互。生产者也可以指定代理人(合作社、社盟等)代表其使用该平台。
 
@@ -476,7 +472,19 @@ FoodTrace自动生成一个QR二维码标签，它可以附加到实体产品上
 
 后来实际种下了变成土豆的种子。因此，供应链的想法是跟踪整个复杂的过程，并且与区块链配合得很好。因此，当您查看大型供应链时，很少有一个组织拥有所有角色，因为您有生产者，您有托运人，这些承运人将事情从一个放置到另一个。您有中间仓库，然后可以将货物交付到最终的零售店。因此，通常很少有一个组织拥有一个组织联盟，交流和交换所有有关来回运输物品的数据和信息，以及土豆的所有权从农民到承运人再到仓库	或批发商 给零售商，最后给消费者。您如何跟踪所有这些，如何进行简化或简化，以便所有这些中介机构并没有在每个级别上都提高价格，因为当您选择时，这就是事实。
 
-9.2 ERC721的代码示例：
+所以，我们问题是，要使用区块链技术实现食品溯源系统，跟踪食品去向，记录每一个步骤，并把相应的信息上链，消费者等可以查询。
+
+生产商 制造出原材料， 将种植/养殖/采摘等信息上链
+
+加工商 加工，包装成产品 将加工信息上链
+
+运输商 运输， 将运输信息上链
+
+消费者 购买食品， 查询食品信息
+
+9.2 我们的合约是在ERC721的基础上改进的。
+
+ ERC721的代码示例：
 
 pragma solidity 0.6.2;
 
@@ -648,9 +656,9 @@ Throws if `_tokenId` is not a valid NFT.如果`_tokenId`无效，抛出异常。
 
  /**
 
-  \* @dev Throws unless `msg.sender` is the current owner, an authorized operator, or the approved
+  \* @dev Throws unless `msg.sender` is the current owner, an authorized operator, or the approved合约操作者不是当前产品的拥有者或被授权者时抛出异常
 
-  \* address for this NFT. Throws if `_from` is not the current owner. Throws if `_to` is the zero
+  \* address for this NFT. Throws if `_from` is not the current owner. Throws if `_to` is the zero代币转让交易，发送代币者不是代币当前拥有者时抛出异常，
 
   \* address. Throws if `_tokenId` is not a valid NFT.
 
@@ -840,6 +848,800 @@ Throws if `_tokenId` is not a valid NFT.如果`_tokenId`无效，抛出异常。
 
 }
 
+9.3 合约关键代码 食品供应链、溯源链
+
+该合约对产品结构进行定义，包括食品制造商，食品加工商，食品运输商以及消费者，还确立一些事件执行的标准。
+
+SupplyChain.sol
+
+pragma solidity ^0.4.24;
+
+ 
+
+import "../foodaccesscontrol/Roles.sol";
+
+import "../foodaccesscontrol/DistributorRole.sol";
+
+import "../foodaccesscontrol/ManufacturerRole.sol";
+
+import "../foodaccesscontrol/customerRole.sol";
+
+import "../foodaccesscontrol/carrierRole.sol";
+
+import "../foodcore/Ownable.sol";
+
+ 
+
+// 定义合约 'Supplychain'
+
+ 
+
+contract SupplyChain is carrierRole, customerRole, ManufacturerRole, DistributorRole {
+
+ 
+
+ // 定义食品拥有者 'owner'
+
+ address owner;
+
+ 
+
+ // 定义叫做upc的变量 'upc' 通用产品代码for Universal Product Code (UPC)
+
+ uint upc;
+
+ 
+
+ // 定义叫做sku的变量 库存单位 'sku' for Stock Keeping Unit (SKU)
+
+ uint sku;
+
+ 
+
+ // 定义一个public  mapping 'foods' that maps the UPC to an food.
+
+ mapping (uint => food) foods;
+
+ 
+
+ // 定义一个mapping 'foodsHistory' that maps the UPC to an array of TxHash, 
+
+ // 追踪其在供应链中的旅程 -- to be sent from DApp.
+
+ mapping (uint => string[]) foodsHistory;
+
+ 
+
+ // 用下列的值定义 enum映射 'State' :
+
+ enum State 
+
+ { 
+
+  Made,    // 0
+
+  Packed,   // 1
+
+  ForSale,  // 2
+
+  Sold,    // 3
+
+  Shipped,  // 4
+
+  Received,  // 5
+
+  Purchased  // 6
+
+ }
+
+ 
+
+ State constant defaultState = State.Made;
+
+ 
+
+ // 用以下字段定义一个结构体'food':
+
+ struct food {
+
+  uint  sku; // 库存单位 (SKU)
+
+  uint  upc; // Universal Product Code (UPC), generated by the Manufacturer, goes on the package, can be verified by the customer
+
+  address ownerID; // Metamask-Ethereum address of the current owner as the food moves through 8 stages
+
+  address originManufacturerID; // Metamask-Ethereum address of the Manufacturer
+
+  string originFactoryName; // Manufacturer Name 制造商名称
+
+  string originFactoryInformation; // Manufacturer Information
+
+  string originFactoryLatitude; // Factory Latitude工厂坐标 纬度
+
+  string originFactoryLongitude; // Factory Longitude经度
+
+  uint  foodID; // Product ID potentially a combination of upc + sku
+
+  string foodNotes; // Product Notes
+
+  uint  foodPrice; // Product Price
+
+  State  foodState; // Product State as represented in the enum above
+
+  address distributorID; // Metamask-Ethereum address of the Distributor
+
+  address carrierID; // Metamask-Ethereum address of the carrier
+
+  address customerID; // Metamask-Ethereum address of the customer
+
+ }
+
+ 
+
+ // Define 8 events with the same 7 state values and accept 'upc' as input argument
+
+//定义8个具有相同7个状态值的事件，并接受'upc'作为输入参数
+
+ event Made(uint upc);
+
+ event Packed(uint upc);
+
+ event ForSale(uint upc);
+
+ event Sold(uint upc);
+
+ event Shipped(uint upc);
+
+ event Received(uint upc);
+
+ event Purchased(uint upc);
+
+ 
+
+ // Define a modifer that checks to see if msg.sender == owner of the contract
+
+//定义一个modifer来检查msg是否正确。发送方==合约的所有者
+
+ modifier onlyOwner() {
+
+  require(msg.sender == owner);
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifer that verifies the Caller
+
+ modifier verifyCaller (address _address) {
+
+  require(msg.sender == _address); 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if the paid amount is sufficient to cover the price
+
+ modifier paidEnough(uint _price) { 
+
+  require(msg.value >= _price); 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks the price and refunds the remaining balance
+
+ modifier checkValue(uint _upc) {
+
+  _;
+
+  uint _price = foods[_upc].foodPrice;
+
+  uint amountToReturn = msg.value - _price;
+
+  foods[_upc].customerID.transfer(amountToReturn);
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Made
+
+ modifier made(uint _upc) {
+
+  require(foods[_upc].foodState == State.Made);
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Packed
+
+ modifier packed(uint _upc) {
+
+  require(foods[_upc].foodState == State.Packed);
+
+ 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is ForSale
+
+ modifier forSale(uint _upc) {
+
+  require(foods[_upc].foodState == State.ForSale);
+
+ 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Sold
+
+ modifier sold(uint _upc) {
+
+  require(foods[_upc].foodState == State.Sold);
+
+ 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Shipped
+
+ modifier shipped(uint _upc) {
+
+  require(foods[_upc].foodState == State.Shipped);
+
+ 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Received
+
+ modifier received(uint _upc) {
+
+  require(foods[_upc].foodState == State.Received);
+
+ 
+
+  _;
+
+ }
+
+ 
+
+ // Define a modifier that checks if an food.state of a upc is Purchased
+
+ modifier purchased(uint _upc) {
+
+  require(foods[_upc].foodState == State.Purchased);
+
+  _;
+
+ }
+
+ 
+
+ // In the constructor set 'owner' to the address that instantiated the contract
+
+ // and set 'sku' to 1
+
+ // and set 'upc' to 1
+
+ constructor() public payable {
+
+  owner = msg.sender;
+
+  sku = 0;
+
+  upc = 0;
+
+ }
+
+ 
+
+ // Define a function 'kill' if required
+
+ function kill() public {
+
+  if (msg.sender == owner) {
+
+   selfdestruct(owner);
+
+  }
+
+ }
+
+ 
+
+ // Define a function 'makefood' that allows a manufacturer to mark a food 'Made'
+
+ function makefood(uint _upc, address _originManufacturerID, string _originFactoryName, string _originFactoryInformation, string _originFactoryLatitude, string _originFactoryLongitude, string _foodNotes) public
+
+ 
+
+ onlyManufacturer
+
+ 
+
+ {
+
+  // Add the new food as part of foods
+
+  food memory temp_food = food({
+
+   sku:sku + 1,
+
+   upc:_upc,
+
+   ownerID:_originManufacturerID,
+
+   originManufacturerID:_originManufacturerID,
+
+   originFactoryName:_originFactoryName,
+
+   originFactoryInformation:_originFactoryInformation,
+
+   originFactoryLatitude:_originFactoryLatitude,
+
+   originFactoryLongitude:_originFactoryLongitude,
+
+   foodID:sku+_upc,
+
+   foodNotes:_foodNotes,
+
+   foodState:State.Made,
+
+   foodPrice:0,
+
+   distributorID:0,
+
+   carrierID:0,
+
+   customerID:0
+
+ 
+
+   });
+
+  foods[_upc] = temp_food;
+
+  foods[_upc].foodState = State.Made;
+
+ 
+
+// uint  sku; // Stock Keeping Unit (SKU)
+
+//   uint  upc; // Universal Product Code (UPC), generated by the Manufacturer, goes on the package, can be verified by the customer
+
+//   address ownerID; // Metamask-Ethereum address of the current owner as the food moves through 8 stages
+
+//   address originManufacturerID; // Metamask-Ethereum address of the Manufacturer
+
+//   string originFactoryName; // Manufacturer Name
+
+//   string originFactoryInformation; // Manufacturer Information
+
+//   string originFactoryLatitude; // Factory Latitude
+
+//   string originFactoryLongitude; // Factory Longitude
+
+//   uint  foodID; // Product ID potentially a combination of upc + sku
+
+//   string foodNotes; // Product Notes
+
+//   uint  foodPrice; // Product Price
+
+//   State  foodState; // Product State as represented in the enum above
+
+//   address distributorID; // Metamask-Ethereum address of the Distributor
+
+//   address carrierID; // Metamask-Ethereum address of the carrier
+
+//   address customerID; // Metamask-Ethereum address of the customer
+
+
+
+
+
+  // Increment sku
+
+  sku = sku + 1;
+
+  // Emit the appropriate event
+
+ 
+
+  emit Made(_upc);
+
+ }
+
+ 
+
+ // Define a function 'packfood' that allows a manufacturer to mark an food 'Packed'
+
+ function packfood(uint _upc) public 
+
+ // Call modifier to check if upc has passed previous supply chain stage
+
+ made(_upc)
+
+ // Call modifier to verify caller of this function
+
+ onlyManufacturer
+
+ {
+
+  // Update the appropriate fields
+
+  foods[_upc].foodState = State.Packed;
+
+ 
+
+  // Emit the appropriate event
+
+  emit Packed(_upc);
+
+ }
+
+ 
+
+ // Define a function 'sellfood' that allows a manufacturer to mark an food 'ForSale'
+
+ function sellfood(uint _upc, uint _price) public 
+
+ // Call modifier to check if upc has passed previous supply chain stage
+
+ packed(_upc)
+
+ // Call modifier to verify caller of this function
+
+ onlyManufacturer
+
+ 
+
+ {
+
+  // Update the appropriate fields
+
+  foods[_upc].foodState = State.ForSale;
+
+  foods[_upc].foodPrice = _price;
+
+  // Emit the appropriate event
+
+  emit ForSale(_upc);
+
+ }
+
+ 
+
+ // Define a function 'buyfood' that allows the disributor to mark an food 'Sold'
+
+ // Use the above defined modifiers to check if the food is available for sale, if the buyer has paid enough, 
+
+ // and any excess ether sent is refunded back to the buyer
+
+ function buyfood(uint _upc) public payable 
+
+  // Call modifier to check if upc has passed previous supply chain stage
+
+  forSale(_upc)
+
+  // Call modifer to check if buyer has paid enough
+
+  paidEnough(foods[_upc].foodPrice)
+
+  // Call modifer to send any excess ether back to buyer
+
+  checkValue(_upc)
+
+  //limit to distributers , no end consumers are allowed to buy from factory.
+
+  onlyDistributor
+
+  {
+
+ 
+
+   // Update the appropriate fields - ownerID, distributorID, foodState
+
+   foods[_upc].foodState = State.Sold;
+
+   // Transfer money to manufacturer
+
+   foods[_upc].originManufacturerID.transfer(foods[_upc].foodPrice);
+
+   // emit the appropriate event
+
+   emit Sold(_upc);
+
+  }
+
+ 
+
+ // Define a function 'shipfood' that allows the distributor to mark an food 'Shipped'
+
+ // Use the above modifers to check if the food is sold
+
+ function shipfood(uint _upc) public 
+
+  // Call modifier to check if upc has passed previous supply chain stage
+
+  sold(_upc)
+
+  // Call modifier to verify caller of this function
+
+  onlyManufacturer
+
+  {
+
+   //check if the factory is the one making this food.
+
+   require(foods[_upc].originManufacturerID == msg.sender,"Manufacturers can ship only foods by them");
+
+   // Update the appropriate fields
+
+   foods[_upc].foodState = State.Shipped;
+
+   // Emit the appropriate event
+
+   emit Shipped(_upc);
+
+  }
+
+ 
+
+ // Define a function 'receivefood' that allows the carrier to mark an food 'Received'
+
+ // Use the above modifiers to check if the food is shipped
+
+ function receivefood(uint _upc) public 
+
+  // Call modifier to check if upc has passed previous supply chain stage
+
+  shipped(_upc)
+
+  // Access Control List enforced by calling Smart Contract / DApp
+
+  {
+
+  // Update the appropriate fields - ownerID, carrierID, foodState
+
+  foods[_upc].foodState = State.Received;
+
+ 
+
+  // Emit the appropriate event
+
+  emit Received(_upc);
+
+ }
+
+ 
+
+ // Define a function 'purchasefood' that allows the customer to mark an food 'Purchased'
+
+ // Use the above modifiers to check if the food is received
+
+ function purchasefood(uint _upc) public 
+
+  // Call modifier to check if upc has passed previous supply chain stage
+
+  received(_upc)
+
+  // Access Control List enforced by calling Smart Contract / DApp
+
+  onlycustomer
+
+  {
+
+   // Up  foods[_upc].foodState = State.Shipped;
+
+   foods[_upc].foodState = State.Purchased;
+
+ 
+
+   // Emit the appropriate event
+
+   emit Purchased(_upc);
+
+  }
+
+ 
+
+ // Define a function 'fetchfoodBufferOne' that fetches the data
+
+ function fetchfoodBufferOne(uint _upc) public view returns 
+
+ (
+
+  uint  foodSKU,
+
+  uint  foodUPC,
+
+  address ownerID,
+
+  address originManufacturerID,
+
+  string originFactoryName,
+
+  string originFactoryInformation,
+
+  string originFactoryLatitude
+
+  // string originFactoryLongitude
+
+  ) 
+
+ {
+
+ // Assign values to the 7 parameters
+
+ 
+
+ 
+
+ return 
+
+ (
+
+  foods[_upc].sku,
+
+  foods[_upc].upc,
+
+  foods[_upc].ownerID,
+
+  foods[_upc].originManufacturerID,
+
+  foods[_upc].originFactoryName,
+
+  foods[_upc].originFactoryInformation,
+
+  foods[_upc].originFactoryLatitude
+
+  // foods[_upc].originFactoryLongitude
+
+  );
+
+}
+
+ 
+
+ // Define a function 'fetchfoodBufferTwo' that fetches the data
+
+ function fetchfoodBufferTwo(uint _upc) public view returns 
+
+ (
+
+  // uint  foodSKU,
+
+  // uint  foodUPC,
+
+  // uint  foodID,
+
+  string originFactoryLongitude,
+
+  string foodNotes,
+
+  uint  foodPrice,
+
+  State  foodState,
+
+  address distributorID,
+
+  address carrierID,
+
+  address customerID
+
+  ) 
+
+ {
+
+  // Assign values to the 7 parameters
+
+ 
+
+  
+
+  return 
+
+  (
+
+   // foods[_upc].sku,
+
+   // foods[_upc].upc,
+
+   // foods[_upc].foodID,
+
+   foods[_upc].originFactoryLongitude,
+
+   foods[_upc].foodNotes,
+
+   foods[_upc].foodPrice,
+
+   foods[_upc].foodState,
+
+   foods[_upc].distributorID,
+
+   foods[_upc].carrierID,
+
+   foods[_upc].customerID
+
+   );
+
+ }
+
+ 
+
+ // Define a function 'fetchfoodBufferThree' that fetches the data
+
+ function fetchfoodBufferThree(uint _upc) public view returns 
+
+ (
+
+  uint  foodSKU,
+
+  uint  foodUPC,
+
+  uint  foodID
+
+  ) 
+
+ {
+
+  // Assign values to the 3 parameters
+
+ 
+
+  
+
+  return 
+
+  (
+
+   foods[_upc].sku,
+
+   foods[_upc].upc,
+
+   foods[_upc].foodID
+
+   
+
+   );
+
+ }
+
+ 
+
+}
+
+ 
+
  
 
 十、搭建环境、
@@ -848,13 +1650,17 @@ Throws if `_tokenId` is not a valid NFT.如果`_tokenId`无效，抛出异常。
 
   软件：
 
-Geth 1.9.7-a718daa6 、
+Go Programming Language amd64 go1.13.5
 
-EthereumWallet 0.11.1、
+Geth 1.9.7-a718daa6 ( Geth 是以太坊的官方客户端，它是个命令行界面，执行在 Go 上实现的完整[以太坊](https://learnblockchain.cn/2017/11/20/whatiseth/)节点,提供很多命令和选项，可以运行以太坊节点、创建和管理账户、发送交易、挖矿、部署智能合约到区块链等。)
 
-MicrosoftEdge 87.0.664.66、
+EthereumWallet 0.11.1  （Ethereum Wallet客户端主要是为用户提供可视化操作的客户端，下载安装之后通过相应的图形化界面即可进行创建账户、转账、查询余额等操作。）
 
-Metamask 1.8.9钱包插件
+MicrosoftEdge 87.0.664.66 （浏览器可供选择的还有：谷歌浏览器Google Chrome
+
+火狐浏览器Firefox 版本以官网最新最新发布的稳定版为准）
+
+Metamask 1.8.9钱包插件（MetaMask是一款在谷歌浏览器Chrome上使用的插件类型的以太坊钱包，该钱包不需要下载，只需要在谷歌浏览器添加对应的扩展程序即可，非常轻量级，使用起来也非常方便。）
 
  操作系统: windows 10  64bit
 
@@ -898,35 +1704,38 @@ Metamask 1.8.9钱包插件
 
 系统测试主要采用动态测试技术、黑盒测试技术
 
-3.测试完成准则
+ 
 
-4.人员与任务表
+3测试用例
 
-测试用例
+| 测试类型                                                     | 功能测试                                                     | 模块名称                                                     | 食品溯源系统用户登入                    |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------- | ------------------------------------------------------------ |
+| 用例描述                                                     | 该用例用来测试在登入界面，用户能否正常登入，如果出错，是否能给出出错信息 |                                                              |                                         |                                                              |
+| 前置条件                                                     | 存在正确的用户名和密码；登入页面正常加载，错误信息提示正确   |                                                              |                                         |                                                              |
+| 编号                                                         | 测试项                                                       | 操作步骤                                                     | 数据                                    | 期望结果                                                     |
+| 1                                                            | 界面检查                                                     | 1、界面装载2、检查界面的标题3、检查文本框默认的焦点4、检查tab键的正常使用 | 1、登入界面的URL：                      | 1、界面正常装载2、界面标题显示为“食品溯源斯通”3、焦点在用户名文本框4、能通过tab控制 |
+| 2                                                            | 用户登录                                                     | 1、输入没有区分大小写的用户名2、输入没有区分大小写的密码3、按回车键 | 1、用户名：Test2、密码：Testjk3、N/A    | 1、N/A2、N/A3、区分大小写，显示出错信息“用户名或者密码错误”并清空输入框，不能正常登入 |
+| 1、输入正确的用户名2、输入错误的密码3、按回车键              | 1、用户名：test2、密码：Testjkfg3、N/A                       | 1、N/A2、N/A3、显示出错信息“用户名或者密码错误”并清空输入框，不能正常登入 |                                         |                                                              |
+| 1、用户名：test2、密码：$%#(在密码中输入特殊字符)3、N/A      | 1、N/A2、N/A3、提示信息用户名或者密码中存在特殊符号，并清空输入框，不能正常登入 |                                                              |                                         |                                                              |
+| 1、输入错误的用户名2、输入正确的密码3、按回车键              | 1、用户名：testjkjkz2、密码：12345Test3、N/A                 | 1、N/A2、N/A3、区分大小写，显示出错信息“用户名或者密码错误”并清空输入框，不能正常登入 |                                         |                                                              |
+| 1、用户名：$%#(在用户名中输入特殊字符)2、密码：12345Test3、N/A | 1、N/A2、N/A3、提示信息用户名或者密码中存在特殊符号，并清空输入框，不能正常登入 |                                                              |                                         |                                                              |
+| 1、输入错误的用户名2、输入错误的密码3、按回车键              | 1、用户名：test22、密码：125testT3、N/A                      | 1、N/A2、N/A3、“用户名或者密码错误”                          |                                         |                                                              |
+| 1、直接单击登录，不输入任何东西                              | 1、N/A                                                       | 出现请输入用户名、密码的提示框                               |                                         |                                                              |
+| 3                                                            | 用户重置或取消                                               | 1、输入用户名2、输入密码3、单击重置或取消                    | 1、用户名：test2、密码：12345Test3、N/A | 1、N/A2、N/A3、清空用户名和密码输入框                        |
 
-测试结果
-
-测试分析报告
-
-系统测试过程：
-
-准备测试数据
-
-输入
-
-输出
+ 
 
 功能测试用例
 
-| 功能描述  |                 |          |
-| --------- | --------------- | -------- |
-| 用例目的  |                 |          |
-| 前提条件  |                 |          |
-| 输入/动作 | 期望的输出/相应 | 实际情况 |
-| 典型值    |                 |          |
-| 边界值    |                 |          |
-| 异常值    |                 |          |
-| ...       |                 |          |
+| 功能描述              | 食品溯源系统用户登入                                         |                            |
+| --------------------- | ------------------------------------------------------------ | -------------------------- |
+| 用例目的              | 该用例用来测试在登入界面，用户能否正常登入，如果出错，是否能给出出错信息 |                            |
+| 前提条件              | 存在正确的用户名和密码；登入页面正常加载，错误信息提示正确   |                            |
+| 输入/动作             | 期望的输出/相应                                              | 实际情况                   |
+| 典型值 正确的用户名   | 登入成功，界面跳转                                           | 登入成功，界面跳转         |
+| 边界值 不填或全为空格 | 登入失败，反馈信息                                           | 登入失败，反馈信息         |
+| 异常值 错误的密码     | 提示，密码错误，请再次输入                                   | 提示，密码错误，请再次输入 |
+| ...                   |                                                              |                            |
 
  
 
